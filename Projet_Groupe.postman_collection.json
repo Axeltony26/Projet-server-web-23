@@ -1,0 +1,995 @@
+{
+	"info": {
+		"_postman_id": "930167c3-ec85-4637-b5ef-2d1a56fa9f5d",
+		"name": "Projet_Groupe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Roles",
+					"item": [
+						{
+							"name": "Roles d'un utilisateur",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{groupe007_url}}/Users/:id/roles",
+									"host": [
+										"{{groupe007_url}}"
+									],
+									"path": [
+										"Users",
+										":id",
+										"roles"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ajouter un role",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{groupe007_url}}/Users/:id/roles",
+									"host": [
+										"{{groupe007_url}}"
+									],
+									"path": [
+										"Users",
+										":id",
+										"roles"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Auth",
+					"item": [
+						{
+							"name": "login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{groupe007_url}}/Users/login",
+									"host": [
+										"{{groupe007_url}}"
+									],
+									"path": [
+										"Users",
+										"login"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "liste des utilisateurs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Users",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter un utilisateur",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Users",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour un utilisateur",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Users/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer un utilisateur",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Users/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Afficher un utilisateur",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Users/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Roles",
+			"item": [
+				{
+					"name": "liste des roles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Roles",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "supprimer un role",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Roles/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Roles",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "mettre a jour un role",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Roles/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Roles",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "afficher un role",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Roles/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Roles",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clients",
+			"item": [
+				{
+					"name": "liste des clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Clients",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter un client",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Clients",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Clients/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Clients",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer un client",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Clients/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Clients",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Afficher un client",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Clients/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Clients",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Adresses_livraison",
+			"item": [
+				{
+					"name": "Obtenir toutes les adresses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Adresse_livraison",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Adresse_livraison"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter une adresse",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Adresse_livraison",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Adresse_livraison"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Commandes",
+			"item": [
+				{
+					"name": "liste des commandes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Commandes",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Commandes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter une commande",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Commandes",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Commandes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Afficher une commande",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Commandes/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Commandes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour une commande",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Commandes/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Commandes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer une commande",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Commandes/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Commandes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produits",
+			"item": [
+				{
+					"name": "liste des produits",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Produits",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Produits"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter un produit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Produits",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Produits"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Afficher un produit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Produits/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Produits",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Produits/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Produits",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Produits/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Produits",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categories_produits",
+			"item": [
+				{
+					"name": "liste des categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Categories_produits",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Categories_produits"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter categories",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Categories_produits",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Categories_produits"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Afficher une categorie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Categories_produits/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Categories_produits",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Categories_produits/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Categories_produits",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Categories_produits/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Categories_produits",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Approvisionnement",
+			"item": [
+				{
+					"name": "liste des approvisionnements",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Approvisionnement",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Approvisionnement"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Afficher un approvisionnement",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Approvisionnement/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Approvisionnement",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Details",
+			"item": [
+				{
+					"name": "Les details des commandes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Details_commandes",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Details_commandes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter un detail",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Details_commandes",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Details_commandes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Details_commandes/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Details_commandes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Details_commandes/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Details_commandes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fournisseurs",
+			"item": [
+				{
+					"name": "liste des fournisseurs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Fournisseurs",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Fournisseurs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter un fournisseur",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Fournisseurs",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Fournisseurs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mettre a jour",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Fournisseurs/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Fournisseurs",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{groupe007_url}}/Fournisseurs/:id",
+							"host": [
+								"{{groupe007_url}}"
+							],
+							"path": [
+								"Fournisseurs",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
